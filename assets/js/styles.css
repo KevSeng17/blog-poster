@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+}
+.header {
+    color: white;
+    display: flex;
+    width: 450px;
+    text-shadow: 2px;
+    text-align: center;
+}
+.top-line {
+    color: white;
+    padding: 20px;
+}
+#blogForm {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    padding: 20px;
+}
+footer {
+    position: absolute;
+}
+body.dark-mode {
+    background-color: black;
+    color: black;
+}
+body.dark-mode header, body.dark-mode footer {
+    background-color: darkgray;
+    color: black;
+}
+label {
+    text-align: center;
+    padding: 6px;
+}
+#content {
+    padding: 16px;
+    margin: 8px 8px;
+}
+button {
+    cursor: pointer;
+    position: relative;
+    margin: 4px 4px;
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    border-radius: 6px;
+}
+#toggle-switch {
+    display: flex;
+    background-color: wheat;
+}
+#toggle-switch:active {
+    background-color: darkgray;
+    transform: scale(1.05);
+}
+#username {
+    border-radius: 4px;
+}
+#content {
+    border-radius: 4px;
+}
+#back-button {
+    background-color: wheat;
+}
+#back-button:active {
+    background-color: darkgray;
+    transform: scale(1.05);
+}

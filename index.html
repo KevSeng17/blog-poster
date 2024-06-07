@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/js/styles.css">
+    <title>Blog Poster</title>
+</head>
+<body>
+    <h1 class="header">Welcome to the Blog Poster!</h1>
+    <button id="toggle-switch">Light/Dark mode</button>
+    <p class="top-line">Feel free to write a post and share it with everyone!</p>
+    <main>
+        <form id="blogForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" id="username" required>
+            <label for="title">Blog Content:</label>
+            <textarea id="content" name="content" required></textarea>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+        <p id="message"></p>
+    </main>
+    <footer>
+        <a href="blog.html" target="_blank">All The Blogs</a>
+    </footer>
+</body>
+<script src="./assets/js/script.js"></script>
+<script src="./assets/js/blog.js"></script>
+</html>
